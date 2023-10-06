@@ -1,0 +1,86 @@
+2023-10-06 16:53:53,365  INFO [main] CrmLoginLogsTest:41 - ****************************** Starting test cases execution  *****************************************
+2023-10-06 16:53:53,507 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2023-10-06 16:53:53,507 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2023-10-06 16:53:53,507 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2023-10-06 16:53:53,514 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1e6454ec
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:497 - -Dio.netty.noUnsafe: false
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:1001 - Java version: 14
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:236 - java.nio.Buffer.address: available
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:321 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:386 - java.nio.Bits.unaligned: available, true
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:453 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1a18644
+2023-10-06 16:53:53,539 DEBUG [main] PlatformDependent0:483 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-10-06 16:53:53,558 DEBUG [main] PlatformDependent:1159 - sun.misc.Unsafe: available
+2023-10-06 16:53:53,620 DEBUG [main] PlatformDependent:1270 - maxDirectMemory: 3160408064 bytes (maybe)
+2023-10-06 16:53:53,620 DEBUG [main] PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\LAJJAP~1\AppData\Local\Temp (java.io.tmpdir)
+2023-10-06 16:53:53,620 DEBUG [main] PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-06 16:53:53,620 DEBUG [main] PlatformDependent:1119 - Platform: Windows
+2023-10-06 16:53:53,620 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-06 16:53:53,620 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-06 16:53:53,620 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2023-10-06 16:53:53,620 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2023-10-06 16:53:53,633 DEBUG [main] PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-06 16:53:53,657 DEBUG [main] InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-06 16:53:53,657 DEBUG [main] InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-06 16:53:53,879 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+2023-10-06 16:53:53,879 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-06 16:53:53,894 DEBUG [main] GlobalEventExecutor:53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-06 16:53:53,910 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2023-10-06 16:53:53,925 DEBUG [main] NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2023-10-06 16:53:53,925 DEBUG [main] NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-06 16:53:53,972 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-06 16:53:53,988 DEBUG [main] ByteBufUtil:89 - -Dio.netty.allocator.type: pooled
+2023-10-06 16:53:53,988 DEBUG [main] ByteBufUtil:98 - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-06 16:53:53,988 DEBUG [main] ByteBufUtil:101 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-06 16:53:54,210 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 7572 (auto-detected)
+2023-10-06 16:53:54,210 DEBUG [Forwarding newSession on session null to remote] NetUtil:148 - -Djava.net.preferIPv4Stack: false
+2023-10-06 16:53:54,226 DEBUG [Forwarding newSession on session null to remote] NetUtil:149 - -Djava.net.preferIPv6Addresses: false
+2023-10-06 16:53:54,226 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:145 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-06 16:53:54,226 DEBUG [Forwarding newSession on session null to remote] NetUtil:206 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-06 16:53:54,243 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 28:cd:c4:ff:fe:73:75:71 (auto-detected)
+2023-10-06 16:53:54,303 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2023-10-06 16:53:54,303 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2023-10-06 16:53:54,303 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3d6690a7
+2023-10-06 16:53:54,335 DEBUG [AsyncHttpClient-1-2] Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-06 16:53:54,335 DEBUG [AsyncHttpClient-1-2] Recycler:97 - -Dio.netty.recycler.ratio: 8
+2023-10-06 16:53:54,335 DEBUG [AsyncHttpClient-1-2] Recycler:98 - -Dio.netty.recycler.chunkSize: 32
+2023-10-06 16:53:54,335 DEBUG [AsyncHttpClient-1-2] Recycler:99 - -Dio.netty.recycler.blocking: false
+2023-10-06 16:53:54,335 DEBUG [AsyncHttpClient-1-2] Recycler:100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-06 16:53:56,324 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-06 16:53:56,417  INFO [main] CrmLoginLogsTest:45 - ******* launching FF broswer *******
+2023-10-06 16:53:59,780  INFO [main] CrmLoginLogsTest:54 - entering Free CRM application url
+2023-10-06 16:53:59,781  WARN [main] CrmLoginLogsTest:55 - Hey this is just a WARNING message
+2023-10-06 16:53:59,781 FATAL [main] CrmLoginLogsTest:56 - Hey this is just fatal ERROR message
+2023-10-06 16:53:59,781 DEBUG [main] CrmLoginLogsTest:57 - Hey this is DEBUG message
+2023-10-06 16:53:59,782  INFO [main] CrmLoginLogsTest:62 - ****************************** starting test case *****************************************
+2023-10-06 16:53:59,782  INFO [main] CrmLoginLogsTest:63 - ****************************** freeCrmTitleLogsTest *****************************************
+2023-10-06 16:53:59,786  INFO [main] CrmLoginLogsTest:66 - Free CRM website login page title is--->Free CRM software for customer relationship management, sales, and support.
+2023-10-06 16:54:02,800  INFO [main] CrmLoginLogsTest:69 - ****************************** ending test case *****************************************
+2023-10-06 16:54:02,800  INFO [main] CrmLoginLogsTest:70 - ****************************** freeCrmTitleLogsTest *****************************************
+2023-10-06 16:54:03,822 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xbd9c65c3d0d2fd6c
+2023-10-06 16:54:04,913  INFO [main] CrmLoginLogsTest:93 - ****************************** Browser is closed *****************************************
+2023-10-06 16:54:04,913  INFO [main] CrmLoginLogsTest:41 - ****************************** Starting test cases execution  *****************************************
+2023-10-06 16:54:07,071  INFO [main] CrmLoginLogsTest:45 - ******* launching FF broswer *******
+2023-10-06 16:54:10,496  INFO [main] CrmLoginLogsTest:54 - entering Free CRM application url
+2023-10-06 16:54:10,497  WARN [main] CrmLoginLogsTest:55 - Hey this is just a WARNING message
+2023-10-06 16:54:10,497 FATAL [main] CrmLoginLogsTest:56 - Hey this is just fatal ERROR message
+2023-10-06 16:54:10,498 DEBUG [main] CrmLoginLogsTest:57 - Hey this is DEBUG message
+2023-10-06 16:54:10,498  INFO [main] CrmLoginLogsTest:76 - ****************************** starting test case *****************************************
+2023-10-06 16:54:10,501  INFO [main] CrmLoginLogsTest:77 - ****************************** freemCRMLogoLogsTest *****************************************
+2023-10-06 16:54:13,564  INFO [main] CrmLoginLogsTest:82 - ****************************** ending test case *****************************************
+2023-10-06 16:54:13,564  INFO [main] CrmLoginLogsTest:83 - ****************************** freemCRMLogoLogsTest *****************************************
+2023-10-06 16:54:15,438  INFO [main] CrmLoginLogsTest:93 - ****************************** Browser is closed *****************************************

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-06T20:34:44Z" name="Default suite" finished-at="2023-10-06T20:35:06Z" duration-ms="22007">
+    <groups>
+    </groups>
+    <test started-at="2023-10-06T20:34:44Z" name="Default test" finished-at="2023-10-06T20:35:06Z" duration-ms="22007">
+      <class name="crm.com.logtest.CrmLoginLogsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.com.logtest.CrmLoginLogsTest@7e3181aa]" started-at="2023-10-06T16:34:44Z" name="setup" finished-at="2023-10-06T16:34:51Z" duration-ms="6463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="freeCrmTitleLogsTest()[pri:1, instance:crm.com.logtest.CrmLoginLogsTest@7e3181aa]" started-at="2023-10-06T16:34:51Z" name="freeCrmTitleLogsTest" finished-at="2023-10-06T16:34:54Z" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCrmTitleLogsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:crm.com.logtest.CrmLoginLogsTest@7e3181aa]" started-at="2023-10-06T16:34:54Z" name="tearDown" finished-at="2023-10-06T16:34:56Z" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.com.logtest.CrmLoginLogsTest@7e3181aa]" started-at="2023-10-06T16:34:56Z" name="setup" finished-at="2023-10-06T16:35:02Z" duration-ms="5456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="freemCRMLogoLogsTest()[pri:2, instance:crm.com.logtest.CrmLoginLogsTest@7e3181aa]" started-at="2023-10-06T16:35:02Z" name="freemCRMLogoLogsTest" finished-at="2023-10-06T16:35:05Z" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freemCRMLogoLogsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:crm.com.logtest.CrmLoginLogsTest@7e3181aa]" started-at="2023-10-06T16:35:05Z" name="tearDown" finished-at="2023-10-06T16:35:06Z" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- crm.com.logtest.CrmLoginLogsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
